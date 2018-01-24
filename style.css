@@ -1,0 +1,34 @@
+html {
+  width: 100%;
+  height: 100%;
+}
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-image: url("spain-coast.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  color: #fff;
+  font-size: 10vw;
+  font-family: Source Sans pro;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 780px) {
+  h1 {
+    font-size: 8vw;
+  }
+}
+
+@media screen and (min-width: 1180px) {
+  h1 {
+    font-size: 100px;
+  }
+}
